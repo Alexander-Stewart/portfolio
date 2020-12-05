@@ -4,6 +4,7 @@ import About from './components/About.js'
 import AlexRoom from './components/AlexRoom.js'
 import Art from './components/Art.js'
 import Work from './components/Work.js'
+import Footer from './components/Footer.js'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/alexs-room" component={AlexRoom}/>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
