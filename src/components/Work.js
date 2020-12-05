@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import {ReactComponent as PlaceHolder} from '../logos/bxs-image.svg'
-import ProjectCard from './ProjectCard.js'
+import ProjectsList from './ProjectsList.js'
 
 class Work extends Component {
   constructor(props) {
@@ -24,10 +24,7 @@ class Work extends Component {
           </Row>
           <Row className="">
             <Col>
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
+              <ProjectsList/>
             </Col>
           </Row>
         </Container>
