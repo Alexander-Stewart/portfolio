@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Card from 'react-bootstrap/Card'
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import {MDBMask, MDBView} from 'mdbreact';
+import {Link} from 'react-router-dom'
 import PlaceHolder from '../logos/bxs-image.svg'
 
 class ProjectCard extends Component {
@@ -12,21 +13,27 @@ class ProjectCard extends Component {
 
   render() {
     return(
-      <MDBView hover zoom>
-        <Card className="bg-light text-white py-4 my-4" style={{ height: '10rem' }}>
-          <Card.Img src={PlaceHolder} alt="" className="h-100 w-100"/>
-          <Card.ImgOverlay className="p-0">
-            <MDBMask overlay="black-light" className="p-3">
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
-            </MDBMask>
-          </Card.ImgOverlay>
-        </Card>
-      </MDBView>
+      <Link to={{
+                pathname: `/work/${this.props.project.id}`,
+                projectProps: {
+                  project: this.props.project
+                }
+               }}>
+        <MDBView hover className="shadow-lg">
+          <Card className="bg-light my-4 border-0" style={{ height: '10rem' }}>
+            <Card.Img src={this.props.project.cardImage} alt="" className="w-100 h-100" fluid/>
+            <Card.ImgOverlay className="p-0">
+              <MDBMask overlay="black-strong" className="p-3 d-flex flex-column css-selector">
+                <Card.Title>{this.props.project.projectTitle}</Card.Title>
+                <Card.Text>
+                  {this.props.project.subtitle}
+                </Card.Text>
+                <p className="text-right lead small em mt-auto mb-0">Learn More ></p>
+              </MDBMask>
+            </Card.ImgOverlay>
+          </Card>
+        </MDBView>
+      </Link>
     );
   }
 }

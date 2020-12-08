@@ -1,0 +1,28 @@
+.css-selector {
+    background: linear-gradient(316deg, #c31fdd, #d59345, #9d7fd0, #dfa24d, #ff9400);
+    background-size: 1000% 1000%;
+    -webkit-animation: lavalamp 29s ease infinite;
+    -moz-animation: lavalamp 29s ease infinite;
+    -o-animation: lavalamp 29s ease infinite;
+    animation: lavalamp 29s ease infinite;
+}
+@-webkit-keyframes lavalamp {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes lavalamp {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-o-keyframes lavalamp {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes lavalamp {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}

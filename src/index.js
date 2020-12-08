@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './hover.css';
+import './gradient.css';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import './App.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

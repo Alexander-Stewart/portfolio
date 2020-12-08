@@ -12,7 +12,7 @@ class MyNavBar extends Component {
 
   render() {
     return(
-      <Navbar bg="light" expand="lg" className="py-3">
+      <Navbar expand="lg" className="py-3">
         <Navbar.Brand>Alexander Stewart</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

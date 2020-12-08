@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import {ReactComponent as PlaceHolder} from '../logos/bxs-image.svg'
+import Alex from '../img/alex.png'
+import PlaceHolder from '../logos/bxs-image.svg'
 
 class About extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class About extends Component {
         <Container className="p-5">
           <Row className="">
             <Col>
-              <PlaceHolder className="h-100 w-100"/>
+              <img src={PlaceHolder} className="img-fluid  h-75"/>
             </Col>
             <Col>
               <h2>Let's vibe for a while!</h2>

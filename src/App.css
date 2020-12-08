@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.content-image {
+  height: 75vh;
+}
+
+.art-carosel-image {
+  object-fit: fill;
+  height: 200px;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.bg-color {
+  background-color: #FCFDAF;
+}
+
+.text-muted-personal {
+  color: #243119;
+}
+
+.text-soft {
+  color: #B0C7BD;
+}

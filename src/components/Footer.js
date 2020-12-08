@@ -13,7 +13,7 @@ class Footer extends Component {
 
   render() {
     return(
-      <footer class="footer mt-auto py-3 bg-light">
+      <footer class="footer mt-auto py-3">
         <div class="container d-flex justify-content-center align-items-center">
           <div class="mx-5">
             <Facebook/>
@@ -21,7 +21,7 @@ class Footer extends Component {
             <Twitter/>
             <Insta/>
           </div>
-          <span class="text-muted mx-5">#BLACKLIVESMATTER</span>
+          <span class="text-muted-personal mx-5">#BLACKLIVESMATTER</span>
         </div>
       </footer>
     );
