@@ -5,8 +5,6 @@ import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 import Test from '../img//art/two_friends.jpg'
 import Test2 from '../img//art/color_8mm.jpg'
-import Alex from '../img/alex.png'
-import Ani from '../img/art/ohwayya.MP4'
 
 class Art extends Component {
   constructor(props) {

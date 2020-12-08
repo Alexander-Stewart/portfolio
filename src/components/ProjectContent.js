@@ -34,7 +34,7 @@ class ProjectContent extends Component {
             <Col className="">
               <img src={this.state.project.mainImage} className="w-100 content-image py-2" style={{}} fluid/>
               <h2 className="">{this.state.project.projectTitle}</h2>
-              <p className="text-muted">{this.state.project.subtitle}</p>
+              <p className="text-muted-personal">{this.state.project.subtitle}</p>
               <div id="project-background">
                 {this.state.project.contextText.map(text =>
                   <p>

@@ -16,10 +16,9 @@ class Work extends Component {
     return(
       <div className="d-flex flex-column justify-content-center align-items-center">
         <Container className="p-5 w-100">
-          <Row className="">
+          <Row className="py-4">
             <Col>
-              <h1 className="text-center">Welcome to my corner of the web!</h1>
-              <h1 className="text-center">IDK WHAT TO PUT HERE!!!</h1>
+              <h1 className="text-center display-1">Hey! I'm Anon. Vibe in my space for awhile.</h1>
             </Col>
           </Row>
           <Row className="">

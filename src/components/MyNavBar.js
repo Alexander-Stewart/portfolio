@@ -13,14 +13,14 @@ class MyNavBar extends Component {
   render() {
     return(
       <Navbar expand="lg" className="py-3">
-        <Navbar.Brand>Alexander Stewart</Navbar.Brand>
+        <Navbar.Brand>Anon Student</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link><Link to="/">Work</Link></Nav.Link>
             <Nav.Link><Link to="/art">Art</Link></Nav.Link>
             <Nav.Link><Link to="/about">About</Link></Nav.Link>
-            <Nav.Link><Link to="/alexs-room">Alex's Room</Link></Nav.Link>
+            <Nav.Link><Link to="/alexs-room">Anon's Room</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

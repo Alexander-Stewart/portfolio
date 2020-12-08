@@ -23,7 +23,7 @@ class About extends Component {
             </Col>
             <Col>
               <h2>Let's vibe for a while!</h2>
-              <p>Hey! I'm Alex Stewart (he/him), a fourth year student at
+              <p>Hey! I'm Anon (he/him), a fourth year student at
               Brown University.</p>
               <p>Concentrating in Computer Science and Visual Arts, I look to
               explore the intersection between creative and technical. Using
@@ -50,7 +50,7 @@ class About extends Component {
             </Col>
             <Col xs={9} sm={9} md={9} lg={9} xl={9}>
               <p>
-              This doesn't have to end. Email me at alexander_stewart@brown.edu
+              This doesn't have to end. Email me at anon@brown.edu
               and let's talk about anything.
               </p>
             </Col>
