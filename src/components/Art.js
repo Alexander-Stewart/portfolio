@@ -22,14 +22,14 @@ class Art extends Component {
               <Carousel className="" style={{height: "75vh", width: "100%"}}>
                 <Carousel.Item>
                   <img
-                    className="img-fluid"
+                    className="d-block w-100"
                     src={Test}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="img-fluid"
+                    className="d-block w-100"
                     src={Test2}
                     alt="Third slide"
                   />

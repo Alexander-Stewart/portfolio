@@ -18,7 +18,8 @@ class Work extends Component {
         <Container className="p-5 w-100">
           <Row className="py-4">
             <Col>
-              <h1 className="text-center display-1">Hey! I'm Anon. Vibe in my space for awhile.</h1>
+              <h1 className="text-center display-1 d-none d-md-block">Hey! I'm Anon. Vibe in my space for awhile.</h1>
+              <h1 className="text-center d-block d-md-none">Hey! I'm Anon. Vibe in my space for awhile.</h1>
             </Col>
           </Row>
           <Row className="">

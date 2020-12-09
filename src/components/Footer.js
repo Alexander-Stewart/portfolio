@@ -14,7 +14,7 @@ class Footer extends Component {
   render() {
     return(
       <footer class="footer mt-auto py-3">
-        <div class="container d-flex justify-content-center align-items-center">
+        <div class="container d-flex justify-content-center align-items-center flex-column flex-md-row">
           <div class="mx-5">
             <Facebook/>
             <Linkedin/>

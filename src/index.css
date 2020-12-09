@@ -2,9 +2,19 @@ html {
   font-size: 21px;
 }
 
+html, body {
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: fill-available;
+}
+
 body, p, a {
   font-family: opake, sans-serif;
   color: #23001E
+}
+
+p {
+  word-wrap: normal;
 }
 
 body {

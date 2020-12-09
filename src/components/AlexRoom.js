@@ -8,17 +8,19 @@ class AlexRoom extends Component {
   constructor(props) {
     super(props);
 
+    // this needs fixing to where it will always fill rest of screen.
+    // this will be helpful for all pages with small content
+
     this.state = {};
   }
 
   render() {
     return(
-      <div className="d-flex flex-column justify-content-center align-items-center">
-      <Container className="w-100">
+      <div className="d-flex flex-column justify-content-center align-items-center h-100">
+      <Container className="w-100 py-5">
 
-          <Row className="my-2">
-            <Col className="">
-              <img src={TCone} className="w-100 h-50 py-2" style={{}} fluid/>
+          <Row className="my-2 d-flex">
+            <Col className="py-2">
               <h2 className="">Come chill with me in my space.</h2>
               <p className="text-muted-personal">UNDER CONSTRUCTION</p>
               <p>The web is a BIG place. I think its comparable to if we were ants living in New York.

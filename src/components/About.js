@@ -9,7 +9,7 @@ class About extends Component {
   constructor(props) {
     super(props);
     // this class needs to be responsive!
-
+    // get rid of h-75 for actual me not placeholder
     this.state = {};
   }
 
@@ -17,9 +17,9 @@ class About extends Component {
     return(
       <div className="d-flex flex-column justify-content-center align-items-center">
         <Container className="p-5">
-          <Row className="">
+          <Row className="" xs={1} lg={2}>
             <Col>
-              <img src={PlaceHolder} className="img-fluid  h-75"/>
+              <img src={PlaceHolder} className="img-fluid pb-2 h-75"/>
             </Col>
             <Col>
               <h2>Let's vibe for a while!</h2>
