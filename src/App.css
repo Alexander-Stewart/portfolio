@@ -61,3 +61,7 @@ nav {
 .text-soft {
   color: #B0C7BD;
 }
+
+.break-up {
+  word-wrap: break-word;
+}
