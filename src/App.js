@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop.js'
 import MyNavBar from './components/MyNavBar.js'
 import About from './components/About.js'
 import AlexRoom from './components/AlexRoom.js'
@@ -10,6 +11,7 @@ import Footer from './components/Footer.js'
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="css-selector">
         <MyNavBar/>
         <Switch>
